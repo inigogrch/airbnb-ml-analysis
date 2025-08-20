@@ -15,7 +15,7 @@ export default function HomePage() {
         </h1>
         <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
           A comprehensive machine learning analysis of NYC Airbnb data, predicting listing popularity 
-          using reviews per month as a proxy. From exploratory data analysis to model deployment.
+          using reviews per month as a proxy. From exploratory data analysis to web deployment.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-8">
