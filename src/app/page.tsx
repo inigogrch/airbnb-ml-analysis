@@ -26,8 +26,8 @@ export default function HomePage() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <DownloadButton href="/airbnb-ml-project.ipynb" download={false}>
-            View Original Notebook
+          <DownloadButton href="/airbnb-ml-project.ipynb" download={true}>
+            Download Original Notebook
           </DownloadButton>
           <Link
             href="/walkthrough"

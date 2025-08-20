@@ -129,8 +129,8 @@ export default function AboutPage() {
             <div className="rounded-lg border p-6">
               <h3 className="text-lg font-semibold mb-4">Project Resources</h3>
               <div className="space-y-3">
-                <DownloadButton href="/airbnb-ml-project.ipynb" className="w-full justify-center" download={false}>
-                  View Original Notebook
+                <DownloadButton href="/airbnb-ml-project.ipynb" className="w-full justify-center" download={true}>
+                  Download Original Notebook
                 </DownloadButton>
                 
                 <div className="text-center">
