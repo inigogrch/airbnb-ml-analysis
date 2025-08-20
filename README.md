@@ -1,4 +1,4 @@
-# 🏠 Airbnb NYC Analysis - Complete Portfolio Project
+# 🏠 Airbnb NYC Analysis - Complete Project
 
 [![Live Website](https://img.shields.io/badge/Live%20Website-View%20Site-blue?style=for-the-badge&logo=vercel)](https://airbnb-ml-analysis.vercel.app/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Analysis%20Notebook-orange?style=for-the-badge&logo=jupyter)](https://airbnb-ml-analysis.vercel.app/airbnb-ml-project.ipynb)
