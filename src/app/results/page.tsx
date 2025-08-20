@@ -26,8 +26,8 @@ export default function ResultsPage() {
         <p className="text-xl text-muted-foreground mb-6">
           Explore the model performance, feature importance, and data insights
         </p>
-        <DownloadButton href="/hw5(1).ipynb">
-          Download Original Notebook
+        <DownloadButton href="/airbnb-ml-project.ipynb" download={false}>
+          View Original Notebook
         </DownloadButton>
       </div>
 

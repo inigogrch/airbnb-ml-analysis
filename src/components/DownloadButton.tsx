@@ -5,17 +5,21 @@ interface DownloadButtonProps {
   href?: string;
   children?: React.ReactNode;
   className?: string;
+  download?: boolean;
+  downloadName?: string;
 }
 
 export function DownloadButton({ 
   href = '/airbnb-ml-project.ipynb', 
   children = 'Download Original Notebook',
-  className 
+  className,
+  download = false,
+  downloadName = 'airbnb-ml-project.ipynb',
 }: DownloadButtonProps) {
   return (
     <a
       href={href}
-      download="airbnb-ml-project.ipynb"
+      download={download ? downloadName : undefined}
       className={cn(
         'inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-all duration-200 hover:bg-primary/90 hover-lift focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-pulse-glow',
         className

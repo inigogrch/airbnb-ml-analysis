@@ -23,8 +23,8 @@ export default function WalkthroughPage() {
         <p className="text-xl text-muted-foreground mb-6">
           A step-by-step journey through the machine learning pipeline
         </p>
-        <DownloadButton href="/hw5(1).ipynb">
-          Download Original Notebook
+        <DownloadButton href="/airbnb-ml-project.ipynb" download={false}>
+          View Original Notebook
         </DownloadButton>
       </div>
 

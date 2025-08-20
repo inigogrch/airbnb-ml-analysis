@@ -1,7 +1,7 @@
 # 🏠 Airbnb NYC Analysis - Complete Portfolio Project
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Website-blue?style=for-the-badge&logo=vercel)](https://bolpdrke.manus.space)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Analysis%20Notebook-orange?style=for-the-badge&logo=jupyter)](https://bolpdrke.manus.space/airbnb-ml-project.ipynb)
+[![Live Website](https://img.shields.io/badge/Live%20Website-View%20Site-blue?style=for-the-badge&logo=vercel)](https://airbnb-ml-analysis.vercel.app/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Analysis%20Notebook-orange?style=for-the-badge&logo=jupyter)](https://airbnb-ml-analysis.vercel.app/airbnb-ml-project.ipynb)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 > **A comprehensive machine learning analysis of NYC Airbnb data, transformed into a professional portfolio website. Demonstrates end-to-end ML workflow from data exploration to deployment.**
@@ -13,9 +13,9 @@ This project implements a complete supervised machine learning workflow to predi
 ### 🏆 Key Achievement
 **Final Model Performance: R² = 0.6956** (69.6% variance explanation)
 
-## 🌐 Live Demo
+## 🌐 Live Website
 
-**🔗 [View Live Website](https://bolpdrke.manus.space)**
+**🔗 [View Live Website](https://airbnb-ml-analysis.vercel.app/)**
 
 The website includes:
 - **Executive Summary**: Key results and business insights
@@ -66,8 +66,8 @@ The website includes:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/airbnb-nyc-analysis.git
-cd airbnb-nyc-analysis
+git clone https://github.com/inigogrch/airbnb-ml-analysis.git
+cd airbnb-ml-analysis
 ```
 
 2. **Run setup script**
@@ -116,10 +116,10 @@ airbnb-nyc-analysis/
 │       ├── CodeBlock.tsx         # Python syntax highlighting
 │       ├── ChartPanel.tsx        # Chart containers
 │       └── [other components]    # Various UI components
-├── 📋 docs/
+├── 📋 documentation/
 │   ├── METHODOLOGY.md            # Detailed methodology
 │   ├── RESULTS.md                # Comprehensive results
-│   └── DEPLOYMENT.md             # Deployment guide
+│   └── PROJECT_STRUCTURE.md      # Detailed project overview
 ├── 🔧 Configuration Files
 │   ├── package.json              # Node.js dependencies
 │   ├── requirements.txt          # Python dependencies
@@ -127,8 +127,7 @@ airbnb-nyc-analysis/
 │   └── next.config.js            # Next.js configuration
 └── 📄 Documentation
     ├── README.md                 # This file
-    ├── LICENSE                   # MIT License
-    └── PROJECT_STRUCTURE.md      # Detailed project overview
+    └── LICENSE                   # MIT License
 ```
 
 ## 📈 Key Results
@@ -170,31 +169,10 @@ airbnb-nyc-analysis/
 
 ## 📚 Documentation
 
-- **[METHODOLOGY.md](METHODOLOGY.md)** - Detailed analysis methodology and approach
-- **[RESULTS.md](RESULTS.md)** - Comprehensive results and business insights
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Step-by-step deployment instructions
-- **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** - Complete project overview
-
-## 🚀 Deployment
-
-### Build for Production
-```bash
-npm run build
-```
-
-### Deploy to Vercel (Recommended)
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### Deploy to Netlify
-```bash
-npm run build
-# Upload 'out' folder to Netlify
-```
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+- **[METHODOLOGY.md](documentation/METHODOLOGY.md)** - Detailed analysis methodology and approach
+- **[RESULTS.md](documentation/RESULTS.md)** - Comprehensive results and business insights
+- **[PROJECT_STRUCTURE.md](documentation/PROJECT_STRUCTURE.md)** - Complete project overview
+ 
 
 ## 🤝 Contributing
 
@@ -215,7 +193,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Benjamin Gerochi**
 - 📧 Email: [bgerochi@gmail.com](mailto:bgerochi@gmail.com)
 - 💼 LinkedIn: [benjaminpgerochi](https://www.linkedin.com/in/benjaminpgerochi/)
-- 🌐 Portfolio: [Live Demo](https://bolpdrke.manus.space)
+- 🌐 Portfolio: [Live Website](https://airbnb-ml-analysis.vercel.app/)
 
 ## 🙏 Acknowledgments
 
