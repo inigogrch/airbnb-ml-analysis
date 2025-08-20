@@ -111,7 +111,7 @@ export default function AboutPage() {
                 </a>
                 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/inigogrch/airbnb-ml-analysis"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg border hover:bg-accent transition-colors"
@@ -129,7 +129,7 @@ export default function AboutPage() {
             <div className="rounded-lg border p-6">
               <h3 className="text-lg font-semibold mb-4">Project Resources</h3>
               <div className="space-y-3">
-                <DownloadButton href="/hw5(1).ipynb" className="w-full justify-center">
+                <DownloadButton href="/airbnb-ml-project.ipynb" className="w-full justify-center">
                   Original Jupyter Notebook
                 </DownloadButton>
                 
